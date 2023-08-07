@@ -1,0 +1,140 @@
+/* Navigation style codes */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically within the header */
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center the logo vertically */
+    margin-left: auto;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Center menu items vertically */
+    margin-right: auto; /* Push the menu items to the right side */
+}
+
+/* Hero image style code */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    align-items: flex-start ;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 48px;
+}
+
+.contentcontianer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+     flex-direction:column;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Add this property to space the elements evenly */
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin-bottom: 5px; /* Adjust the margin */
+}
+
+.footer p {
+    margin-bottom: 5px; /* Adjust the margin */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 5px; /* Adjust the margin */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px; /* Adjust the margin */
+}
+
+.footer-section.social ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section.links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section.thank-you {
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+}
+
+
+/*overall list catagory*/
+li {
+    margin: 0 10px;
+}
