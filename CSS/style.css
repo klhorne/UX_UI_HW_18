@@ -19,7 +19,7 @@ header {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center items vertically within the header */
+    align-items: center; /
 }
 
 nav {
@@ -37,8 +37,8 @@ ul {
     padding: 0;
     display: flex;
     justify-content: flex-end;
-    align-items: center; /* Center menu items vertically */
-    margin-right: auto; /* Push the menu items to the right side */
+    align-items: center; /
+    margin-right: auto; /
 }
 
 
@@ -51,7 +51,7 @@ li {
     padding: 1%;
     text-align: center;
     display: flex;
-    align-items: center; /* Center the logo vertically */
+    align-items: center; 
     margin-left: auto;
 }
 
@@ -64,7 +64,7 @@ li {
     height: 600px;
     padding: 25px;
     align-items: flex-start;
-    background-color: #f2f2f2; /* Add a background color to the hero section */
+    background-color: #E5DCD5; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,9 +74,10 @@ li {
     width: 900px;
     margin: 0 auto;
     font-size: 48px;
-    text-align: left; /* Center align the text within the hero section */
+    text-align: left; 
 }
 
+/* Work sections */
 .mywork1,
 .mywork2 {
     padding: 50px 0;
@@ -93,12 +94,17 @@ li {
     margin: 40px 0;
 }
 
-.work-container.blue-background {
-    background-color: #3e8ecc; /* Blue background color */
+.work-container.pink-background {
+    background-color: #E8C0BC; 
+    max-width: 80%;
+    font-size: 34px;
 }
 
-.work-container.purple-background {
-    background-color: #b38df2; /* Light purple background color */
+.work-container.blue-background {
+    background-color: #D6E5E6; 
+    max-width: 80%;
+    font-size: 34px;
+  
 }
 
 .work-text {
@@ -115,7 +121,7 @@ li {
 }
 
 .work-image img {
-    height: 400px; /* Adjust the image height as needed */
+    height: 400px; 
     margin-right: 20px;
 }
 
@@ -136,26 +142,23 @@ footer {
     text-align: center;
     background-color: #f9f9f9;
     padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
 }
 
 .footer {
     display: flex;
-    justify-content: space-between; /* Add this property to space the elements evenly */
+    justify-content: space-between; 
     align-items: flex-start;
     flex-direction: row-reverse;
 }
 
 .footer h2 {
     font-size: 24px;
-    margin-bottom: 5px; /* Adjust the margin */
+    margin-bottom: 5px; 
 }
 
 .footer p {
-    margin-bottom: 5px; /* Adjust the margin */
+    margin-bottom: 5px; 
 }
 
 .footer-section {
@@ -165,7 +168,7 @@ footer {
 
 .footer-section h3 {
     font-size: 18px;
-    margin-bottom: 5px; /* Adjust the margin */
+    margin-bottom: 5px;
 }
 
 .footer-section ul {
@@ -174,7 +177,7 @@ footer {
 }
 
 .footer-section li {
-    margin-bottom: 5px; /* Adjust the margin */
+    margin-bottom: 5px; 
 }
 
 .footer-section.social ul {
@@ -194,5 +197,3 @@ footer {
     flex-direction: column ;
     align-items: flex-start;
 }
-
-
