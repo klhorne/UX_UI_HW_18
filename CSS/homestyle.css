@@ -14,16 +14,18 @@ body {
     vertical-align: top;
 }
 
+/* Navigation style codes */
+
 header {
     background-color: #f9f9f9;
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /
+    align-items: center;
 }
 
 nav {
-    width: 73%;
+    width: 23%;
     padding: 1%;
     color: black;
     display: flex;
@@ -36,11 +38,8 @@ ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
-    align-items: center; /
-    margin-right: auto; /
+    align-items: center;
 }
-
 
 li {
     margin: 0 10px;
@@ -51,13 +50,13 @@ li {
     padding: 1%;
     text-align: center;
     display: flex;
-    align-items: center; 
-    margin-left: auto;
+    align-items: center;
 }
 
 .logo img {
     max-height: 100px;
 }
+
 
 
 .heroImg {
@@ -80,7 +79,7 @@ li {
 /* Work sections */
 .mywork1,
 .mywork2 {
-    padding: 50px 0;
+   padding: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,14 +102,16 @@ li {
 .work-container.blue-background {
     background-color: #D6E5E6; 
     max-width: 80%;
-    font-size: 34px;
   
 }
 
 .work-text {
     flex: 1;
     padding: 20px;
-    text-align: right;
+    text-align:left;
+    padding: 10%; 
+    font-size: 34px;
+
 }
 
 .work-image {
@@ -128,7 +129,6 @@ li {
 .work-text h1 {
     margin-top: 0;
 }
-
 
 .contentcontianer {
     display: flex;
