@@ -58,31 +58,96 @@ li {
 }
 
 
+section {
+    padding: 30px;
+    background-color: #F9F9F9;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-.heroImg {
-    height: 600px;
-    padding: 25px;
-    align-items: flex-start;
-    background-color: #E5DCD5; 
+section h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+section p {
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.design{ 
+    background-color: #FACF7B;
+
+}
+
+.collaboration{ 
+    background-color: #DDDFF2;
+
+}
+
+.Leadership{ 
+    background-color: #E8C0BC;
+
+}
+
+.Writing{ 
+    background-color: #BBEBEE;
+
+}
+
+.skillstools{ 
+    background-color: #B1828E;
+
+}
+
+.education{ 
+    background-color: #E5DCD5;
+
+}
+
+
+
+
+
+
+
+
+
+/*  Button Styling */
+.button {
+    display: flex;
+    padding: 20px 20px;
+    background-color: #FACF7B;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color:  #FACF7B;
+    transform: scale(1.1);
+
+}
+
+/* Active State */
+.button:active {
+    background-color:#E5DCD5;
+    transform: scale (1.1);
+}
+
+.downloadbutton{ 
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 2%;
 }
 
-.content {
-    width: 900px;
-    margin: 0 auto;
-    font-size: 10px;
-    text-align: left; 
-}
-
-
-.contentcontianer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-     flex-direction:column;
-}
 
 /* Footer */
 footer {
@@ -142,5 +207,4 @@ footer {
 .footer-section.thank-you {
     display: flex;
     flex-direction: column ;
-    align-items: flex-start;
-}
+    align-items: flex-start;}
