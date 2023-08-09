@@ -57,16 +57,40 @@ li {
 }
 
 
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
-    align-items: flex-start;
-    background-color: #E5DCD5; 
+/* Additional styles for the About and Interests sections */
+.about-section {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 50px;
 }
+
+.about-left, .about-right {
+    flex: 1;
+}
+
+.about-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.interests-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.interest-container {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.interest-container img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .content {
     width: 900px;
