@@ -150,20 +150,85 @@ li {
     text-decoration: none;
 }
 
-/* Hover Effect */
 .button:hover {
     background-color:  #FACF7B;
     transform: scale(1.1);
 
 }
 
-/* Active State */
 .button:active {
     background-color:#E5DCD5;
     transform: scale (1.1);
 }
 
+/*resume*/
+.resume-section {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
 
+.resume-container {
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white; 
+}
+
+.resumehighlighttext {
+    text-align: center;
+    font-size: 44px; 
+}
+
+.box h2 {
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+.box p {
+    margin: 5px 0;}
+  
+
+/* About me section */
+.about-section {
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
+
+.about-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse; 
+
+.aboutmebox {
+    width: 45%; 
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+.aboutmebox h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.aboutmebox p {
+    margin: 5px 0;
+}
+
+.about-image img {
+    height: 600px;
+}
 
 /* Footer */
 footer {
@@ -225,31 +290,63 @@ footer {
     flex-direction: column ;
     align-items: flex-start;
 }
+/*mobile media query*/
 
+@media (max-width: 768px) {
+    header {
+        padding: 5px; 
+    }
 
-/* Mobile media query */
-@media only screen and (max-width: 600px) {
-    .flex-container {
-      flex-direction: column;
+    nav {
+        width: 100%; 
+        justify-content: center; 
     }
-    
-    .flex-child {
-      width: 100%;
+
+    .logo {
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 20px; 
     }
-  
-    .grid-container {
-      grid-template-areas:
-        "header"
-        "content"
-        "mywork1"
-        "mywork2"
-        "footer";
-      grid-template-rows: auto 1fr auto auto auto;
-      grid-template-columns: 1fr;
+
+    .logo img {
+        max-height: 80px; 
     }
-  }
+
+    .heroImg {
+        height: auto; 
+    }
+
+    .content {
+        width: 100%; 
+        font-size: 24px; 
+        text-align: center; 
+        padding: 10px; 
+    }
+
+    .work-container {
+        flex-direction: column;
+    }
+
+    .work-text {
+        font-size: 18px;
+    }
+
+    .box {
+        font-size: 18px;
+    }
+
+    .aboutmebox {
+        font-size: 18px;
+    }
+
+    .footer h2,
+    .footer p {
+        font-size: 18px;
+    }
+}
+
   
   
   
   
-  
+
